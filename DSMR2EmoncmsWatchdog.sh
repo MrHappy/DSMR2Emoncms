@@ -7,7 +7,7 @@
 
 FILE="/tmp/DSMR2Emoncms_Watchdog"
 LOGFILE="/var/log/DSMR2Emoncms_Watchdog.log"
-PROCESS="python /usr/local/bin/DSMR2Emoncms.py"
+PROCESS="python3 /usr/local/bin/DSMR2Emoncms.py"
 TimeNow=$(date +%s)
 ProcessID=$(ps -ef|grep -v grep|grep "$PROCESS"| cut -c 6-14)
 
