@@ -10,7 +10,7 @@ version = "v1.05"
 
 
 # if errors during executing this scrip make sure you installed phyton and the required modules/libraries
-import ConfigParser
+import configparser
 import serial
 import datetime
 import time
